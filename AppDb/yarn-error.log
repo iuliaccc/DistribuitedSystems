@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\simion.cira\AppData\Local\Microsoft\WindowsApps;;C:\Users\simion.cira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\simion.cira\AppData\Roaming\npm;C:\Users\simion.cira\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\ReduxLearning\expense\helloDB\package.json: Unexpected token < in JSON at position 224
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "helloDb",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "nodemon src/index.js",
+      "test": "jest",
+      "test:watch": "jest --watchAll"
+    },
+    "dependencies": {
+  <<<<<<< HEAD
+      "body-parser": "^1.19.0",
+  =======
+      "@babel/plugin-proposal-class-properties": "7.5.5",
+      "@babel/plugin-proposal-json-strings": "7.2.0",
+      "@babel/plugin-syntax-dynamic-import": "7.2.0",
+      "@babel/plugin-syntax-import-meta": "7.2.0",
+      "@babel/plugin-transform-runtime": "7.5.5",
+      "@babel/preset-env": "7.5.5",
+      "@babel/runtime": "7.5.5",
+      "@commitlint/cli": "8.1.0",
+      "babel-jest": "24.8.0",
+      "body-parser": "1.19.0",
+  >>>>>>> de404813436343fd5c984ed2cce5438c72deaf0e
+      "cors": "2.8.5",
+      "eslint": "6.1.0",
+      "eslint-config-airbnb-base": "13.2.0",
+      "eslint-plugin-import": "2.18.2",
+      "express": "4.17.1",
+      "husky": "3.0.1",
+      "jest": "24.8.0",
+      "nock": "10.0.6",
+      "nodemon": "1.19.1",
+      "sqlite3": "4.0.9",
+      "supertest": "4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

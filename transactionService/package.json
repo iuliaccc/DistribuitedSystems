@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apollo-server": "^2.7.0",
+    "graphql": "^14.4.2",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "name": "transactionService",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
